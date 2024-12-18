@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 // import SissoLogo from '../assets/sissologo.svg'
 import SissoLogo from '../assets/sissologo.png'
 import GirlSVG from '../assets/Girl.svg'
-import AiPowered from '../assets/AIPower.svg'
 import Circle1 from '../assets/Circle1.svg'
 import Feature from '../assets/Feature.svg'
 import Brand from '../assets/Brand.svg'
