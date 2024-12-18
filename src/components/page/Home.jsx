@@ -231,27 +231,27 @@ function Home() {
                                 <div className="md:w-[150px] lg:w-[400px] h-[3px] sm:w-[80px] bg-gradient-to-r from-[#2A7AC5] via-[#77C9F6] to-[#91A4E9] rounded-sm" />
 
                             </span>
-                            <img className="" src={Circle1} />
+                            <img className="" src={Circle1} alt=""/>
                         </div>
                         <div className="hidden lg:inline md:inline w-[648px] h-[322px] text-center  ">
                             {/* <img className="" src={AiPowered} /> */}
                             <h1 className="lg:text-[35px] md:text-[25px] sm:text-[13px] font-[700] lg:inline md:inline sm:hidden">
                                 Community & <span className="lg:text-[35px] md:text-[30px] font-[700] text-[#2676c2]">Networking</span>
                             </h1>
-                            <img className="w-[700px] h-[235px]" src={Feature} />
+                            <img className="w-[700px] h-[235px]" src={Feature} alt=""/>
 
                         </div>
                         <div className="md:hidden lg:hidden sm:inline text-center space-y-3">
                             <h1 className="lg:text-[35px] md:text-[25px] sm:text-[13px] font-[700]">
                                 Community & <span className="lg:text-[35px] md:text-[30px] font-[700] text-[#2676c2]">Networking</span>
                             </h1>
-                            <img className="" src={Feature} />
+                            <img className="" src={Feature} alt="" />
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className="flex justify-center p-[10px]">
-                        <img src={Brand} />
+                        <img src={Brand} alt=""/>
                     </div>
                 </div>
                 <div id="whatwedo-container" className="flex flex-col justify-center items-center gap-4">
@@ -439,11 +439,11 @@ function Home() {
                                     Grab our app from the Play Store and register to get started.
                                 </h1>
                                 <a href="https://central.sissoo.in/">
-                                    <img className="sm:w-[85px] sm:h-[28px] lg:w-[209px] lg:h-[65px]" src={PlayStore} />
+                                    <img className="sm:w-[85px] sm:h-[28px] lg:w-[209px] lg:h-[65px]" src={PlayStore} alt=""/>
                                 </a>
                             </div>
                             <div className=" ">
-                                <img className="lg:h-[340px] lg:w-[500px] sm:h-[140px] sm:w-[120px]" src={Phone} />
+                                <img className="lg:h-[340px] lg:w-[500px] sm:h-[140px] sm:w-[120px]" src={Phone} alt="" />
                             </div>
                         </div>
                     </a>
@@ -460,7 +460,7 @@ function Home() {
                         </div>
 
                         <div className="flex justify-center">
-                            <img className="lg:w-[574px] lg:h-[570px] sm:h-[360px] sm:w-[300px]" src={About} />
+                            <img className="lg:w-[574px] lg:h-[570px] sm:h-[360px] sm:w-[300px]" src={About} alt="" />
                         </div>
                         <div className="p-[10px]">
                             <p className="text-[12px] text-center leading-[18px]">
@@ -535,7 +535,7 @@ function Home() {
                         <div className="w-full h-[600px] flex p-[20px]   ">
                             <div className="w-[40%] h-full ">
                                 <div className="flex justify-center">
-                                    <img className="lg:w-[574px] lg:h-[570px] sm:h-[360px] sm:w-[300px]" src={About} />
+                                    <img className="lg:w-[574px] lg:h-[570px] sm:h-[360px] sm:w-[300px]" src={About} alt="" />
                                 </div>
                             </div>
 
@@ -621,16 +621,16 @@ function Home() {
 
                     <div className="sm:inline lg:hidden md:hidden">
                         <div className="flex flex-col gap-5 justify-center p-[10px]">
-                            <img src={Corporate} />
-                            <img src={Filter} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={Ai} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={Mentor} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={Project} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={Game} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={Vitrual} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={SoftSkills} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={Community} />
-                            <img className={`${model ? 'inline' : 'hidden'}`} src={Interative} />
+                            <img src={Corporate} alt=""/>
+                            <img src={Filter} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={Ai} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={Mentor} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={Project} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={Game} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={Vitrual} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={SoftSkills} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={Community} alt=""/>
+                            <img className={`${model ? 'inline' : 'hidden'}`} src={Interative} alt=""/>
 
                             <div className="text-[18px] text-[#2676C2] text-center font-[600] cursor-pointer"
                                 onClick={() => setModel(!model)}>
@@ -644,22 +644,22 @@ function Home() {
                     <div id="feature-container">
                         <div className="sm:hidden lg:inline md:inline w-[97%] lg:h-[500px]">
                             <div className="flex justify-center items-center gap-2">
-                                <img className="w-[420px] h-[464px]" src={Corporate} />
-                                <img className="w-[420px] h-[425px]" src={Filter} />
-                                <img className="w-[420px] h-[464px]" src={Ai} />
+                                <img className="w-[420px] h-[464px]" src={Corporate} alt="" />
+                                <img className="w-[420px] h-[425px]" src={Filter} alt="" />
+                                <img className="w-[420px] h-[464px]" src={Ai} alt="" />
                             </div>
                             <div className={`${model ? 'flex justify-center items-center gap-2' : 'hidden'}`}>
-                                <img className="w-[420px] h-[464px]" src={Mentor} />
-                                <img className="w-[420px] h-[425px]" src={Project} />
-                                <img className="w-[420px] h-[464px]" src={Game} />
+                                <img className="w-[420px] h-[464px]" src={Mentor} alt="" />
+                                <img className="w-[420px] h-[425px]" src={Project} alt="" />
+                                <img className="w-[420px] h-[464px]" src={Game} alt="" />
                             </div>
                             <div className={`${model ? 'flex justify-center items-center gap-2' : 'hidden'}`}>
-                                <img className="w-[420px] h-[464px]" src={Vitrual} />
-                                <img className="w-[420px] h-[425px]" src={SoftSkills} />
-                                <img className="w-[420px] h-[464px]" src={Interative} />
+                                <img className="w-[420px] h-[464px]" src={Vitrual} alt="" />
+                                <img className="w-[420px] h-[425px]" src={SoftSkills} alt="" />
+                                <img className="w-[420px] h-[464px]" src={Interative} alt="" />
                             </div>
                             <div className={`${model ? 'flex justify-center items-center' : 'hidden'}`}>
-                                <img className={`${model ? 'inline' : 'hidden'}`} src={Interative} />
+                                <img className={`${model ? 'inline' : 'hidden'}`} src={Interative} alt="" />
                             </div>
                             <div className="text-[18px] text-[#2676C2] text-center font-[600] cursor-pointer"
                                 onClick={() => setModel(!model)}>
@@ -681,7 +681,7 @@ function Home() {
 
                         </div>
                         <div className="w-[90%] ">
-                            <img src={HowStart} />
+                            <img src={HowStart} alt="" />
                         </div>
                     </div>
 
@@ -697,7 +697,7 @@ function Home() {
 
                             </div>
                             {/* <div className="w-[50%] flex justify-center lg:hidden md:hidden sm:inline"> */}
-                            <img className="w-[250px] h-[300px] lg:hidden md:hidden sm:inline" src={AboutSisso} />
+                            <img className="w-[250px] h-[300px] lg:hidden md:hidden sm:inline" src={AboutSisso} alt="" />
                             {/* </div> */}
                             <div className=" ml-[60px] w-[]">
                                 <Slider {...settings}>
@@ -714,7 +714,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="w-[50%]  flex justify-center  ">
-                            <img className="lg:inline md:inline sm:hidden" src={AboutSisso} />
+                            <img className="lg:inline md:inline sm:hidden" src={AboutSisso} alt="" />
                         </div>
 
                     </div>
@@ -755,7 +755,7 @@ function Home() {
                                                 </div>
                                             </div>
                                             <div>
-                                                <img src={DoubleQuoutes} />
+                                                <img src={DoubleQuoutes} alt="" />
                                             </div>
                                         </div>
                                         <p>
@@ -814,7 +814,7 @@ function Home() {
                                                             </div>
                                                         </div>
                                                         <div className="w-[30px] h-[30px]">
-                                                            <img src={DoubleQuoutes} />
+                                                            <img src={DoubleQuoutes} alt="" />
                                                         </div>
                                                     </div>
                                                     <p className="sm:text-[12px]">
@@ -832,7 +832,7 @@ function Home() {
                 </div>
                 <div className="p-[10px]">
                     <a href="https://central.sissoo.in/">
-                        <img src={DownApp} />
+                        <img src={DownApp} alt="" />
                     </a>
                 </div>
 
@@ -857,7 +857,7 @@ function Home() {
 
                                     <div className="flex items-center gap-5">
                                         {/* <div> */}
-                                        <img className="lg:w-[70px] lg:h-[70px] md:w-[60px] md:h-[60px] sm:h-[50px] sm:w-[50px]" src={PhoneNumber} />
+                                        <img className="lg:w-[70px] lg:h-[70px] md:w-[60px] md:h-[60px] sm:h-[50px] sm:w-[50px]" src={PhoneNumber} alt="" />
                                         {/* </div> */}
                                         <div className=" h-[53px] w-[3px]  bg-gradient-to-t from-[#2A7AC5] via-[#77C9F6] to-[#91A4E9] rounded-sm" />
                                         <div>
@@ -869,7 +869,7 @@ function Home() {
                                     </div>
                                     <div className="flex items-center gap-5">
                                         {/* <div> */}
-                                        <img className="lg:w-[70px] lg:h-[70px] md:w-[60px] md:h-[60px] sm:h-[50px] sm:w-[50px]" src={Mail} />
+                                        <img className="lg:w-[70px] lg:h-[70px] md:w-[60px] md:h-[60px] sm:h-[50px] sm:w-[50px]" src={Mail} alt="" />
                                         {/* </div> */}
                                         <div className=" h-[53px] w-[3px]  bg-gradient-to-t from-[#2A7AC5] via-[#77C9F6] to-[#91A4E9] rounded-sm" />
                                         <div>
@@ -881,7 +881,7 @@ function Home() {
                                     </div>
                                     <div className="flex items-center gap-5">
                                         {/* <div> */}
-                                        <img className="lg:w-[70px] lg:h-[70px] md:w-[60px] md:h-[60px] sm:h-[50px] sm:w-[50px]" src={Location} />
+                                        <img className="lg:w-[70px] lg:h-[70px] md:w-[60px] md:h-[60px] sm:h-[50px] sm:w-[50px]" src={Location} alt="" />
                                         {/* </div> */}
                                         <div className=" h-[53px] w-[3.5px]  bg-gradient-to-t from-[#2A7AC5] via-[#77C9F6] to-[#91A4E9] rounded-sm" />
                                         <div>
@@ -915,7 +915,7 @@ function Home() {
                             <div className="flex">
                                 <div className="flex flex-col justify-center items-start p-[50px] gap-[30px]  w-[60%]">
                                     <div>
-                                        <img className="w-[300px] h-[120px]" src={SissoLogo} />
+                                        <img className="w-[300px] h-[120px]" src={SissoLogo} alt="" />
                                     </div>
                                     <p className="text-[25px]">
                                         Join us on our journey to make learning accessible and opportunities abundant.
@@ -923,7 +923,7 @@ function Home() {
                                     <h1 className="text-[25px] font-[600]">
                                         Follow Us On:
                                     </h1>
-                                    <img className="h-[52px] w-[192px]" src={Social} />
+                                    <img className="h-[52px] w-[192px]" src={Social} alt="" />
 
                                 </div>
                                 <div className=" w-[20%]  flex flex-col items-center justify-center gap-7 ">
@@ -1022,7 +1022,7 @@ function Home() {
 
                         <div className="p-[30px]  space-y-2 lg:hidden md:hidden sm:inline">
                             <div className="flex justify-center">
-                                <img className="w-[270px] h-[100px]" src={SissoLogo} />
+                                <img className="w-[270px] h-[100px]" src={SissoLogo} alt=""/>
                             </div>
                             <p className=" text-[12px] p-[5px]">
                                 Join us on our journey to make learning accessible and opportunities abundant.
@@ -1125,7 +1125,7 @@ function Home() {
                                 </span>
                             </div>
                             <div className="p-[5px]">
-                                <img src={Social} />
+                                <img src={Social} alt="" />
                             </div>
                             <div className="w-[80%] p-[5px] text-[14px] flex flex-col gap-[10px] ">
                                 <h1>All Rights Reserved @ <span className="text-[#2676c2]">SISSOO</span>-2024</h1>
